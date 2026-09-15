@@ -24,6 +24,7 @@
         "@laravel/multiplex": "^0.4.1"
     },
     "dependencies": {
-        "cesium": "^1.140.0"
+        "cesium": "^1.140.0",
+        "mapbox-gl": "^3.30.0"
     }
 }

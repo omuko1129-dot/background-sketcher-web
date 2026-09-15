@@ -29,4 +29,11 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+    /**
+     * ユーザーが所有するカメラアングル一覧
+     */
+    public function cameraAngles()
+    {
+        return $this->hasMany(\App\Models\CameraAngle::class);
+    }
 }
